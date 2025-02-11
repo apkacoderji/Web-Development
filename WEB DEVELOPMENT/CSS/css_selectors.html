@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* element selector */
+        div{
+            background-color: antiquewhite;
+        }
+        /* class selector */
+        .blue{
+            background-color: darkcyan;
+            color: white;
+        }
+        /* id selector */
+        #light{
+            background-color: rgb(202, 146, 184);
+
+        }
+        /* child selector */
+        div > p {
+            color:red;
+           
+        }
+        /* desecendant selector */
+        div p{
+           color:red;
+        }
+        /* universal selector */
+        *{
+margin: 7px;
+padding: 5px;
+        }
+        /* psuedo selector */
+        a:visited{
+            color: greenyellow;
+        }
+        a:link{
+            color: black;
+        }
+a:active{
+    color: chocolate;
+}
+a:hover{
+    color: #ffffff;
+    background-color: black;
+}
+p:first-child{
+    color: blue;
+    background-color: rgb(173, 208, 33);
+}
+.o{
+background-color: black;
+}
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor sit amet.
+    </div>
+    <div class="blue o">
+        this just for a example
+    </div>
+    <div class="blue p">
+        this is too
+    </div>
+    <div id="light">
+        it what it is
+    </div>
+    <div>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, nobis!
+        </p>
+    </div>
+    <div>
+        <article>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, nobis!
+        </p>
+    </article>
+    </div>
+<a href="http://google.com">go to google</a>
+<a href="http://facebook.com">go to facebook</a>
+<a href="http://linkedin.com">go to linkedin</a>
+<a href="http://instagram.com">go to instagram</a>
+<span>
+    <p>this is first</p>
+    <p>this is second</p>
+</span>
+</body>
+</html>
